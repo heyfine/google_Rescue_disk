@@ -1,5 +1,8 @@
 # GCP 谷歌云“不死鸟”救砖方案：打造独立救援盘 (mfslinux)
 
+# 一键安装脚本：
+bash -c "$(curl -sL https://raw.githubusercontent.com/heyfine/google_Rescue_disk/refs/heads/main/rescue.sh)"
+
 ## 📖 前言：为什么要这么折腾？
 
 很多薅 GCP（谷歌云）羊毛的朋友都知道，免费层级有 30GB 的硬盘额度。常规做法是直接开一个 30GB 的实例，但如果你喜欢折腾系统（比如 DD 重装、修改分区），一旦把系统搞挂，数据就很难救回来。
