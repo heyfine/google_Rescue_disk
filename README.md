@@ -116,8 +116,8 @@ GRUB_TERMINAL="console serial"
 # 2. 强制设置波特率 (GCP 标准)
 GRUB_SERIAL_COMMAND="serial --speed=115200 --unit=0 --word=8 --parity=no --stop=1"
 
-# 3. 强制显示菜单并等待 30 秒
-GRUB_TIMEOUT=30
+# 3. 强制显示菜单并等待 5 秒
+GRUB_TIMEOUT=5
 GRUB_TIMEOUT_STYLE=menu
 EOF
 ```
@@ -137,7 +137,7 @@ reboot
 ### 如何进入救援模式：
 
 1. 重启后，迅速打开 GCP 的 **Cloud Shell** 或 **串行控制台 (Serial Console)**。
-2. 你会看到 Grub 倒计时菜单（有 30 秒时间）。
+2. 你会看到 Grub 倒计时菜单（有 5 秒时间）。
 3. 使用键盘 **↑ / ↓ 键**（如果不行尝试 **n / p 键**）选择 **🚑 Rescue Disk (External sdb1)**。
 4. 回车确认。
 
