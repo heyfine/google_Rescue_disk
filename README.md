@@ -3,7 +3,8 @@
 # 一键安装脚本：
 bash -c "$(curl -sL https://raw.githubusercontent.com/heyfine/google_Rescue_disk/refs/heads/main/rescue.sh)"
 
-备份与恢复脚本：bash -c "$(curl -sL https://raw.githubusercontent.com/heyfine/google_Rescue_disk/refs/heads/main/Backup_and_Recovery.sh)"
+备份与恢复脚本：
+bash -c "$(curl -sL https://raw.githubusercontent.com/heyfine/google_Rescue_disk/refs/heads/main/Backup_and_Recovery.sh)"
 
 
 ## 📖 前言：为什么要这么折腾？
